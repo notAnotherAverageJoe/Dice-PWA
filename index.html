@@ -3,13 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dice Roller PWA</title>
+    <title>Dice Roller 🎲</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="manifest" href="manifest.json" />
   </head>
   <body>
     <div id="app">
       <h1>Dice Roller 🎲</h1>
+
+      <!-- Sliders for choosing number of dice  -->
+      <div>
+        <label for="num-dice">Number of Dice: </label>
+        <input type="range" id="num-dice" min="1" max="8" value="1" />
+        <span id="num-dice-value">1</span>
+      </div>
+      <!-- Sliders for choosing number of sides on the dice  -->
+
+      <div>
+        <label for="num-sides">Number of Sides: </label>
+        <input
+          type="range"
+          id="num-sides"
+          min="4"
+          max="20"
+          step="2"
+          value="6"
+        />
+        <span id="num-sides-value">6</span>
+      </div>
+
       <button id="roll-btn">Roll Dice</button>
       <div id="dice-result"></div>
     </div>
