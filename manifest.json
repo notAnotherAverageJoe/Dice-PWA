@@ -1,0 +1,22 @@
+{
+  "name": "Dice Roller PWA",
+  "short_name": "DiceRoller",
+  "description": "A simple dice rolling app",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f4f4",
+  "theme_color": "#4CAF50",
+  "icons": [
+    {
+      "src": "🎲",  
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "🎲", 
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+
