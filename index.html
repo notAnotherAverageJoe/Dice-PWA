@@ -6,14 +6,13 @@
     <title>Dice Roller 🎲</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="manifest" href="manifest.json" />
-    <!-- Add this line to load the dice roll sound -->
     <audio id="dice-sound" src="assets/dice-roll.wav" preload="auto"></audio>
   </head>
   <body>
     <div id="app">
       <h1>Dice Roller 🎲</h1>
 
-      <!-- Sliders for choosing number of dice and number of sides -->
+      <!-- sliders for choosing number of dice and number of sides -->
       <div>
         <label for="num-dice">Number of Dice: </label>
         <input type="range" id="num-dice" min="1" max="8" value="1" />
@@ -35,7 +34,7 @@
 
       <button id="roll-btn">Roll Dice</button>
 
-      <!-- Dice animation container -->
+      <!-- dice animation -->
       <div id="dice-container">
         <div id="dice-result"></div>
       </div>
