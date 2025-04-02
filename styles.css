@@ -3,7 +3,7 @@ body {
   text-align: center;
   padding: 20px;
   background-color: cornflowerblue;
-  color: #000; /* Default text color */
+  color: #000; 
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 

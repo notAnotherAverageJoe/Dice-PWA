@@ -29,7 +29,7 @@ function animateDiceRoll(numDice, numSides) {
   const rolls = [];
   let diceHTML = "";
 
-  // Show dice rolling animation (quick random numbers)
+  // Show dice rolling animation
   for (let i = 0; i < numDice; i++) {
     diceHTML += `<div class="dice">🎲</div>`;
   }

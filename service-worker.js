@@ -41,7 +41,7 @@ self.addEventListener("fetch", (event) => {
       if (cachedResponse) {
         return cachedResponse; // Return cached content
       }
-      return fetch(event.request); // Otherwise, fetch from the network
+      return fetch(event.request); 
     })
   );
 });
