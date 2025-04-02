@@ -18,7 +18,10 @@ body.dark-mode {
 }
 
 h1 {
-  font-size: 2rem;
+
+  font-family: "Eater", serif;
+
+  
 }
 
 div {
@@ -85,6 +88,14 @@ body.dark-mode button {
 body.dark-mode button:hover {
   background-color: #999;
 }
+
+.eater-regular {
+  font-family: "Eater", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
   
   @keyframes roll {
     0% {
